@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Sunday Edit — blog về học tập, cuộc sống và những ý tưởng đáng để dành thời gian.">
+  <meta name="theme-color" content="#f7f5f0">
+  <title>The Sunday Edit — Stories for a softer, smarter life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="The Sunday Edit, về đầu trang"><span class="brand-mark">SE</span><span>The Sunday Edit<span class="brand-period">.</span></span></a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#latest">Bài viết</a><a href="#topics">Chủ đề</a><a href="#about">Giới thiệu</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Chuyển chế độ sáng tối" title="Chuyển chế độ sáng tối"><span aria-hidden="true">☾</span></button>
+        <a class="header-cta" href="#newsletter">Theo dõi blog <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Mở menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero page-wrap" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A JOURNAL FOR CURIOUS MINDS</p>
+        <h1>Stories for a<br><em>softer, smarter</em> life.</h1>
+        <p class="hero-description">Một góc nhỏ dành cho những ý tưởng lớn — về việc học, sống chậm và trở thành phiên bản tốt hơn của chính mình.</p>
+        <a class="text-link" href="#latest">Khám phá bài viết <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Tĩnh vật sách và cà phê trong ánh nắng ấm">
+        <div class="art-sun"></div><div class="art-window"></div><div class="art-book book-back"></div><div class="art-book book-front"><span>take<br>your<br>time</span></div><div class="art-cup"><i></i></div><div class="art-leaf leaf-one"></div><div class="art-leaf leaf-two"></div><span class="art-caption">ISSUE Nº 08&nbsp; — &nbsp;READ, REFLECT, REPEAT</span>
+      </div>
+      <div class="hero-bottom"><span>ĐỌC CHẬM. NGHĨ SÂU.</span><span>EST. 2025</span></div>
+    </section>
+
+    <section class="featured page-wrap" aria-labelledby="featured-title">
+      <div class="section-heading"><p class="eyebrow">ĐỌC ĐẦU TIÊN</p><span class="section-rule"></span><span class="muted">01 / 04</span></div>
+      <article class="featured-card">
+        <a class="featured-image image-study" href="#article-learning" aria-label="Đọc bài viết: Học ít hơn, nhớ lâu hơn"><span class="image-label">THE LEARNING ISSUE</span><span class="image-book">LESS<br>NOISE,<br><i>MORE</i><br>FOCUS.</span><span class="image-sun"></span></a>
+        <div class="featured-copy"><p class="post-meta"><span>HỌC TẬP</span><span>·</span><time datetime="2025-11-18">18 THÁNG 11, 2025</time></p><h2 id="featured-title"><a href="#article-learning">Học ít hơn, nhớ lâu hơn: nghệ thuật của việc học có chủ đích</a></h2><p class="post-excerpt">Không phải cứ ngồi lâu bên bàn học là sẽ tiến bộ. Đôi khi, bí quyết nằm ở cách ta chọn điều cần tập trung và cho trí óc khoảng nghỉ cần thiết.</p><a class="text-link" href="#article-learning">Đọc bài viết <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </section>
+
+    <section class="latest page-wrap" id="latest" aria-labelledby="latest-title">
+      <div class="section-heading latest-heading"><div><p class="eyebrow">TỪ TRANG NHẬT KÝ</p><h2 id="latest-title">Những câu chuyện mới</h2></div><label class="search-box"><span class="sr-only">Tìm bài viết</span><span aria-hidden="true">⌕</span><input id="post-search" type="search" placeholder="Tìm điều bạn quan tâm…"></label></div>
+      <div class="category-row" id="topics" role="group" aria-label="Lọc bài viết theo chủ đề"><button class="filter-chip active" data-category="all" type="button">Tất cả <span>04</span></button><button class="filter-chip" data-category="learning" type="button">Học tập</button><button class="filter-chip" data-category="life" type="button">Lối sống</button><button class="filter-chip" data-category="ideas" type="button">Ý tưởng</button></div>
+      <div class="post-grid" id="post-grid">
+        <article class="post-card" data-category="learning" data-search="học từ vựng tiếng anh thói quen nhỏ mỗi ngày"><a class="post-image image-vocab" href="#article-vocab" aria-label="Đọc bài viết về học từ vựng"><span class="image-note">WORD<br>BY WORD</span><span class="vocab-spark">✳</span></a><div class="post-card-body"><p class="post-meta"><span>HỌC TẬP</span><span>·</span><time datetime="2025-11-12">12.11.25</time></p><h3><a href="#article-vocab">Một từ mới mỗi ngày: thói quen nhỏ, cánh cửa lớn</a></h3><p>Biến việc học từ vựng thành một phần tự nhiên trong ngày của bạn.</p><a class="read-more" href="#article-vocab">Đọc tiếp <span aria-hidden="true">→</span></a></div></article>
+        <article class="post-card" data-category="life" data-search="sống chậm nghỉ ngơi chăm sóc bản thân digital detox"><a class="post-image image-slow" href="#article-slow" aria-label="Đọc bài viết về sống chậm"><span class="slow-sun"></span><span class="slow-title">A LITTLE<br>MORE<br><i>HERE.</i></span><span class="slow-flower">✿</span></a><div class="post-card-body"><p class="post-meta"><span>LỐI SỐNG</span><span>·</span><time datetime="2025-11-08">08.11.25</time></p><h3><a href="#article-slow">Sống chậm giữa một thế giới luôn vội</a></h3><p>Không cần biến mất khỏi thế giới. Chỉ cần đôi lúc quay về với khoảnh khắc này.</p><a class="read-more" href="#article-slow">Đọc tiếp <span aria-hidden="true">→</span></a></div></article>
+        <article class="post-card" data-category="ideas" data-search="sáng tạo ý tưởng viết nhật ký bắt đầu dự án"><a class="post-image image-ideas" href="#article-ideas" aria-label="Đọc bài viết về sáng tạo"><span class="ideas-star">✳</span><span class="ideas-type">MAKE<br>ROOM FOR<br><i>IDEAS.</i></span><span class="ideas-orbit"></span></a><div class="post-card-body"><p class="post-meta"><span>Ý TƯỞNG</span><span>·</span><time datetime="2025-11-02">02.11.25</time></p><h3><a href="#article-ideas">Đừng chờ cảm hứng: hãy tạo chỗ cho nó xuất hiện</a></h3><p>Một vài cách nhẹ nhàng để khởi động sáng tạo, ngay cả khi chưa biết bắt đầu từ đâu.</p><a class="read-more" href="#article-ideas">Đọc tiếp <span aria-hidden="true">→</span></a></div></article>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>Chưa tìm thấy bài viết phù hợp. Hãy thử từ khóa khác nhé.</p>
+    </section>
+
+    <section class="quote-band" id="about"><div class="quote-inner"><span class="quote-mark">“</span><blockquote>Small steps every day add up to <em>big change.</em></blockquote><p>GHI CHÚ NHỎ CHO NHỮNG NGÀY BẬN RỘN</p></div><div class="quote-decoration" aria-hidden="true">SLOW<br>GROW</div></section>
+
+    <section class="newsletter page-wrap" id="newsletter"><div class="newsletter-icon" aria-hidden="true">✳</div><div class="newsletter-copy"><p class="eyebrow">A NOTE, NOW AND THEN</p><h2>Một lá thư nhỏ,<br><em>mỗi Chủ Nhật.</em></h2><p>Những bài viết mới và ý tưởng đáng giữ lại, gửi thẳng đến hộp thư của bạn.</p></div><form class="newsletter-form" id="newsletter-form"><label for="email">Địa chỉ email</label><div class="input-row"><input id="email" name="email" type="email" placeholder="you@example.com" required autocomplete="email"><button type="submit" aria-label="Đăng ký nhận tin">Đăng ký <span aria-hidden="true">↗</span></button></div><p class="form-note" id="form-message" aria-live="polite">Không spam. Chỉ những điều đáng đọc.</p></form></section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><a class="brand" href="#top"><span class="brand-mark">SE</span><span>The Sunday Edit<span class="brand-period">.</span></span></a><p>Made for curious minds & slower mornings.</p><a class="back-top" href="#top">LÊN ĐẦU TRANG ↑</a><span class="copyright">© 2025 THE SUNDAY EDIT</span></div></footer>
+</body>
+</html>
